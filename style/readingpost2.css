@@ -1,6 +1,6 @@
 .ReadingPost-Container {
     width: 100%;
-    padding: 20px;
+    padding: 52px 0;
 }
 .Judul {
     width: 80%;
@@ -40,7 +40,7 @@
     align-items: center;
     border: 2px solid #EAECF2;
     border-radius: 24px;
-    padding: 10px;
+    padding: 12px;
 
 }
 .Card-Container{
@@ -48,8 +48,8 @@
 }
 
 .thumbnail img {
-    width: 140px;
-    height: 140px;
+    width: 280px;
+    height: 280px;
 }
 
 .Card-Container .location {
@@ -72,25 +72,35 @@
 .contentreading .title h3{
     font-family: 'Poppins' sans-serif;
     font-weight: 700;
-    font-size: 22px !important;
+    font-size: 24px !important;
 }
 
 .contentreading .location p {
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #6A707D;
 }
 
+.details p {
+    text-align: justify;
+}
 .contentreading {
+    margin-left: 16px;
+    margin-right: 16px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    max-width: 500px;
 }
 
 .contentreading .details p {
+    margin: 24px 0;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
+    letter-spacing: 0.02em;
 }
 
 
@@ -128,6 +138,9 @@
     }
     .Card-Container{
         display: block;
+    }
+    .details p {
+        text-align: justify;
     }
     
 }

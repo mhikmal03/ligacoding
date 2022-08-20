@@ -1,0 +1,51 @@
+.Back{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.Back a {
+    color: black;
+}
+.Article-Container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    margin-bottom: 50vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #535864;
+}
+
+.Article-Container .Thumbnail {
+    text-align: center;
+    width: 100%;
+}
+
+.Article-Container .Author p {
+    margin: 10px 0;
+}
+
+.Article-Container .Author p span {
+    color: red;
+}
+
+.Article-Container .Content p {
+    text-align: justify;
+}
+
+.Article-Container .Heading h1 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+
+@media (max-width: 768px) {
+    .Article-Container {
+        font-size: small;
+    }
+}

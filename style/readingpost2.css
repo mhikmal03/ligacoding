@@ -2,12 +2,26 @@
     width: 100%;
     padding: 20px;
 }
-
+.Judul {
+    width: 80%;
+    margin: 0 auto;
+}
 .Judul h1 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 24px;
+}
+
+.Judul p {
+    text-align: end;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+.Judul a {
+    color: black;
 }
 
 .Card-Container {
@@ -49,7 +63,7 @@
 
 .button-cardhiji a {
     color: black;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
 } 
 
@@ -60,7 +74,7 @@
 }
 
 .contentreading .location p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 15px;
 }

@@ -27,11 +27,17 @@
 
 .card-content{
     border-radius: 32px;
+    margin-right:24px;
 }
 .right{
     display: flex;
     
 }
 .arrow {
-    padding-top: 50%;
+    padding:40% 0;
+    cursor: pointer;
+}
+.arrow a{
+    color: #232529;
+    font-weight: 500;
 }

@@ -19,11 +19,18 @@
 }
 
 .card p{
+    letter-spacing: 0.0125em;
     color: #fff;
-    margin-bottom: 52px;
+    margin-bottom: 32px;
     margin-left: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.title-card {
+    letter-spacing: 0.0125em;
     font-family: "Poppins", sans-serif;
-    
+    font-size: 22px;
+    margin-bottom: 12px;
 }
 
 

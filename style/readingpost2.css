@@ -1,33 +1,85 @@
 .ReadingPost-Container {
     width: 100%;
-    background-color: yellow;
     padding: 20px;
 }
 
+.Judul h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
 .Card-Container {
-    width: 100%;
-    display: flex;
-    background-color: gray;
+    width: 80%;
+    display: grid;
+    gap: 2rem;
     margin: 0 auto;
     border-radius: 24px;
-    border: 2px solid #EAECF2;
     padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .Card-Container .cardhiji {
     display: flex;
+    gap: 1rem;
     align-items: center;
+    border: 2px solid #EAECF2;
+    border-radius: 24px;
+    padding: 10px;
+
 }
 
-.Card-Container .cardhiji .thumbnail img {
-    width: 100px;
-    height: 100px;
-    
+.thumbnail img {
+    width: 140px;
+    height: 140px;
 }
 
 .Card-Container .location {
     display: flex;
 }
+
+.button-cardhiji {
+    width: 120px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.button-cardhiji a {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+} 
+
+.contentreading .title h3{
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700;
+    font-size: 22px !important;
+}
+
+.contentreading .location p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.contentreading {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contentreading .details p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+    
+
 
 
 

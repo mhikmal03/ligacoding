@@ -24,6 +24,7 @@
 }
 .iconInfo{
     display: flex;
+    margin-bottom: 72px;
 }
 .info{
     display: flex;
@@ -37,6 +38,17 @@
     font-size:28px;
 }
 
+.start{
+    color: #fff;
+    background-color: #4C5EFF;
+    padding: 14px 32px;
+    border-radius: 32px;
+}
+.see{
+    border:1px solid #4C5EFF;
+    padding: 14px 32px;
+    border-radius: 32px;
+}
 
 
 

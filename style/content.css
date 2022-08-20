@@ -1,0 +1,23 @@
+.content {
+    width: 100%;
+}
+.card-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 402px;
+    height: 560px;
+}
+.card p{
+    color: #fff;
+    margin-bottom: 52px;
+    margin-left: 32px;
+}

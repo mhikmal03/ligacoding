@@ -49,6 +49,11 @@
     padding: 14px 32px;
     border-radius: 32px;
 }
+.card1{
+    background-image: url("/assets/GarudaWisnu.jpg");
+    width: 402px;
+    height: 560px;
+}
 
 
 

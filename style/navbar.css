@@ -111,6 +111,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px;
+        
 
     }
 }
@@ -126,6 +127,7 @@
     }
     .Navbar-Container {
         width: 100%;
+        z-index: 1000;
     }
     .hamburger {
         display: block;

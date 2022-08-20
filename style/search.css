@@ -133,11 +133,18 @@
     gap: 20px;
 }
 
+.accordion-flex img {
+    width: fit-content;
+}
+
 
 
 @media (max-width: 768px) {
 
-    .Dropdown-Container {
+    .Search-Container {
         width: 70%;
+        position: inherit;
     }
+    
+    
 }

@@ -9,12 +9,13 @@
     color: black;
 }
 .Article-Container {
+    padding: 20px 0;
+    padding-bottom: 30px;
     width: 50%;
     margin: 0 auto;
     display: flex;
     gap: 2rem;
     flex-direction: column;
-    margin-bottom: 50vh;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: #535864;

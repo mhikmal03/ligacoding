@@ -1,0 +1,31 @@
+.Hero-Container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Hero-Container h1 span {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .Hero-Container {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+}

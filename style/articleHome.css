@@ -1,0 +1,44 @@
+.PesonaGunung .Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font: 500;
+}
+
+.PesonaGunung .Container .img {
+    width: 100%;
+}
+
+.PesonaGunung .Container .img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 700px) {
+    .PesonaGunung .Container {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+    }
+    .PesonaGunung .Container .img img {
+        width: 100%;
+    }
+    .PesonaGunung .Container .img{
+        width: 80%;
+        text-align: center;
+    }
+}

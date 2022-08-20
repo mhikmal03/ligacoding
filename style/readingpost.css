@@ -1,0 +1,95 @@
+.ReadingPost-Container {
+    width: 100%;
+
+}
+
+.Card-Container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.Card-Container .cardhiji {
+    border-radius: 24px;
+    display: flex;
+    gap: 1.5rem;
+    max-width: 700px;
+    padding: 15px;
+    background-color: white;
+    border: 3px solid #EAECF2;
+}
+
+.Card-Container .location {
+    display: flex;
+}
+
+.Card-Container .button-cardhiji {
+    border-radius: 5px;
+    border: 2px solid black;
+    max-width: 120px;
+    padding: 10px 20px;
+}
+
+.Card-Container .title h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.Card-Container .location p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.Card-Container .contentreading {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Card-Container .details {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.Card-Container .button-cardhiji a {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+}
+
+.Card-Container .button-cardhiji a img {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .Card-Container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+    }
+}

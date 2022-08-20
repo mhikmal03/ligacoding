@@ -1,0 +1,143 @@
+.Search-Container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    padding-bottom: 100px;
+    background-image: url(../assets/bgBookPage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 50vh;
+}
+
+.Search-Container .Heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Search-Container .SearchBar {
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.Search-Container .SearchBar input {
+    border: none !important;
+    width: 400px;
+    padding: 20px 30px;
+    color: white;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.Search-Container .SearchBar input::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+
+.Dropdown-Container {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    z-index: 20;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.accordion {
+    cursor: pointer;
+    background-color: white;
+    padding: 18px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.Search-Dropdown .panel {
+    margin: 0 auto;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.Search-Dropdown .Circle {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    position: relative;
+}
+
+.Search-Dropdown .Circle img {
+    position: relative;
+
+}
+
+
+
+.Search-Dropdown .accordion {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.Search-Dropdown .accordion-flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.Search-Dropdown .panel {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+
+}
+
+.Search-Dropdown .panel p {
+    padding-bottom: 30px;
+}
+
+
+
+.Search-Dropdown .accordion .Content {
+    font-size: 10px;
+}
+
+.Search-Dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .Dropdown-Container {
+        width: 70%;
+    }
+}

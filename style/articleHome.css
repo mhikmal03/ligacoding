@@ -50,9 +50,20 @@
 .addedpost-container {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 1rem;
 }
 
-
+.addedpost .img {
+    background-image: url(/assets/gwkgambar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 300px;
+}
 
 
 

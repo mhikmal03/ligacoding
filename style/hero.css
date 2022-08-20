@@ -37,6 +37,19 @@
     font-weight:700;
     font-size:28px;
 }
+.right{
+    display: flex;   
+}
+
+.arrow {
+    padding:40% 0;
+}
+.arrow button{
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
 
 .start{
     color: #fff;
@@ -51,6 +64,12 @@
 }
 .tombol{
     margin-bottom: 60px;
+}
+.Slide img{
+    border-radius: 32px;
+    height: 380px; 
+    width: 380px;
+
 }
 
 
@@ -73,4 +92,41 @@
         margin: 0 auto;
         flex-direction: row;
     }
+
+}
+@media (max-width: 768px) {
+    .Hero-Container {
+        width: 80%;
+        margin: 0;
+        flex-direction: column;
+    }
+    .iconInfo{
+        flex-direction:column;
+    }
+    .info{
+        margin-right:0;
+        margin-bottom:16px;
+    }
+    .tombol{
+        margin:0;
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+    }
+    .start{
+        margin-bottom:12px;
+    }
+    .slideshow{
+        margin-top:24px;
+    }
+    .Slide img{
+        border-radius: 24px;
+        height: 300px; 
+        width: 300px;
+    
+    }
+    .arrow{
+        margin:15% 0;
+    }
+    
 }

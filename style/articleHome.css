@@ -42,3 +42,37 @@
         text-align: center;
     }
 }
+
+
+
+.addedpost-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.addedpost-container .addedpost .img {
+    width: 100%;
+}
+
+.addedpost-container .addedpost .img img {
+    width: 100%;
+}
+
+.addedpost-container .addedpost {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 700px) {
+    .addedpost-container {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+}

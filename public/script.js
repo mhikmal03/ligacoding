@@ -27,7 +27,7 @@ const acc = document.getElementsByClassName("accordion");
 
 for (let i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function () {
-    acc[i].classList.toggle("active");
+    acc[i].classList.toggle("clicked");
     const panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
@@ -36,6 +36,16 @@ for (let i = 0; i < acc.length; i++) {
     }
   });
 }
+
+
+
+
+
+
+
+
+
+
 
 
 let slideIndex = 1;

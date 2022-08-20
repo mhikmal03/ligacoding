@@ -49,4 +49,7 @@
     .Article-Container {
         font-size: small;
     }
+    .Article-Container {
+        width: 70%;
+    }
 }

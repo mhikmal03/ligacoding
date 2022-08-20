@@ -1,12 +1,12 @@
 .Dropdown-Container {
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .accordion {
-    background-color: #eee;
-    color: #444;
     cursor: pointer;
+    background-color: white;
     padding: 18px;
     width: 100%;
     text-align: left;
@@ -14,17 +14,12 @@
     outline: none;
     transition: 0.4s;
     display: flex;
+    gap: 0.7rem;
+    align-items: center;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
-    background-color: #ccc;
-  }
-  
-  /* Style the accordion panel. Note: hidden by default */
   .panel {
     padding: 0 18px;
-    background-color: white;
     display: none;
     overflow: hidden;
   }
@@ -34,8 +29,46 @@
     width: 30px;
     height: 30px;
     background-color: black;
+    text-align: center;
+    position: relative;
   }
 
   .Dropdown-Container .Circle img {
-    margin: 0 auto;
+    position: relative;
+
   }
+
+  .Dropdown-Container .Circle .clicked  img {
+    transform: rotate(20deg);
+  }
+
+  .Dropdown-Container .accordion {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+  }
+
+  .Dropdown-Container .panel {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+
+  }
+
+  .Dropdown-Container .panel p {
+    padding-bottom: 30px;
+  }
+
+  .Dropdown-Container .border {
+    border-bottom: 2px solid #EAECF2;
+  }
+
+
+
+
+  @media (max-width: 768px) {
+    
+    .Dropdown-Container {
+        width: 70%;
+    }
+}

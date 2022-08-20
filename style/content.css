@@ -26,9 +26,16 @@
     color: #fff;
     margin-bottom: 52px;
     margin-left: 32px;
-    font-family: "Poppins", san;
+    font-family: "Poppins", sans-serif;
 }
 
 .card-content{
     border-radius: 32px;
+}
+.right{
+    display: flex;
+    
+}
+.arrow {
+    padding-top: 50%;
 }

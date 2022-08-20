@@ -44,6 +44,9 @@
     padding: 10px;
 
 }
+.Card-Container{
+    display: flex;
+}
 
 .thumbnail img {
     width: 140px;
@@ -116,9 +119,16 @@
 }
 
 
-@media (min-width: 768px) {
-    .Card-Container {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+@media (max-width: 768px) {
+    .cardhiji{
+        display: flex;
+        flex-direction: column;
     }
+    .cardhiji .thumbnail img{
+        width: 100%;
+    }
+    .Card-Container{
+        display: block;
+    }
+    
 }

@@ -2,8 +2,12 @@
     width: 100%;
     padding: 20px;
     display: flex;
+    justify-content:space-between;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
+}
+.heading{
+    margin-bottom: 18px;
 }
 .Hero-Container h1 {
     font-weight: 700;
@@ -16,6 +20,21 @@
     font-size : 18px;
     font-family: 'Inter', sans-serif;
     color: #6A707D;
+    margin-bottom:42px;
+}
+.iconInfo{
+    display: flex;
+}
+.info{
+    display: flex;
+    margin-right: 52px;
+}
+.info p{
+    margin-left:16px;
+}
+.info span{
+    font-weight:700;
+    font-size:28px;
 }
 
 

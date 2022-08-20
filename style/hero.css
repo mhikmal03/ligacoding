@@ -17,7 +17,7 @@
     color: red;
 }
 .subHeading {
-    font-size : 18px;
+    font-size : 22px;
     font-family: 'Inter', sans-serif;
     color: #6A707D;
     margin-bottom:42px;
@@ -49,11 +49,10 @@
     padding: 14px 32px;
     border-radius: 32px;
 }
-.card1{
-    background-image: url("/assets/GarudaWisnu.jpg");
-    width: 402px;
-    height: 560px;
+.tombol{
+    margin-bottom: 60px;
 }
+
 
 
 

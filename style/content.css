@@ -1,6 +1,10 @@
 .content {
     width: 100%;
+<<<<<<< HEAD
     
+=======
+    margin-top: 60px;
+>>>>>>> b9c12b2f43629cd4fc491a8568156536539dfc52
 }
 .card-container{
     width: 80%;
@@ -9,17 +13,22 @@
     gap: 1rem;
     
 }
-
-
 .card{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 402px;
+    width: 400px;
     height: 560px;
+    margin-bottom: 72px;
 }
+
 .card p{
     color: #fff;
     margin-bottom: 52px;
     margin-left: 32px;
+    font-family: "Poppins", san;
+}
+
+.card-content{
+    border-radius: 32px;
 }

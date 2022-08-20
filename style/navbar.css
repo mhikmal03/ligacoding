@@ -9,6 +9,8 @@
 
 .Navbar-Container ul li a {
     color: #232529;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
 
 
@@ -40,6 +42,17 @@
 }
 
 
+.logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.logo h1 span {
+    color: red;
+}
+
+.off {
+    display: none;
+}
 
 
 
@@ -61,7 +74,6 @@
 @media (min-width: 1200px) {
     .Navbar-Container {
         width: 80%;
-        background-color: gray;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -101,18 +113,22 @@
         top: 70px;
         flex-direction: column;
         gap: 0;
-        background-color: gray;
+        background-color: white;
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        padding-top: 50px;
+
     }
     
     .linkItem {
-        margin: 16px 0 ;
+        margin: 20px 0;
+        display: block;
     }
     
     .NavMenu.active {
         left: 0;
+        
     }
     
 }

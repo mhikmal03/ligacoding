@@ -7,6 +7,7 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
+    gap: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -19,14 +20,23 @@
 }
 
 .whychoose-content .text h1 {
+    color: #232529;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 42px;
+    margin-bottom: 20px;
 }
 
 .whychoose-content .text p {
     font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
     font-weight: 500;
+    color: #6A707D;
+}
+
+.whychoose-content img {
+    width: 400px;
 }
 
 

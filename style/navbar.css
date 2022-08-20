@@ -13,6 +13,33 @@
     font-weight: 500;
 }
 
+.Navbar-Container ul li a,
+.Navbar-Container ul li a:after,
+.Navbar-Container ul li a:before {
+  transition: all .5s;
+}
+.Navbar-Container ul li a:hover {
+  color: #555;
+}
+.Navbar-Container ul li a {
+  position: relative;
+}
+.Navbar-Container ul li a:after{
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: red;
+  height: 2.3px;
+}
+.Navbar-Container ul li a:hover:after {
+  width: 100%;
+}
+
 
 .Navbar-Container ul {
     list-style-type: none;
